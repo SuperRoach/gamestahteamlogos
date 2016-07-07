@@ -20,6 +20,7 @@ if (isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST") {
 
 
     echo "trying!";
+    echo "Hi Neebs.<br>"
     move_uploaded_file($tmp_name, "$path/$value.png");
 
     echo $_FILES[$value]['size'] . "<br>";
